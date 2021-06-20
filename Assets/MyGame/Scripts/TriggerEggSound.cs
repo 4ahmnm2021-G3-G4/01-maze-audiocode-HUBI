@@ -9,6 +9,7 @@ public class TriggerEggSound : MonoBehaviour
     void OnTriggerEnter(Collider Egg)
     {
         playSound.Play();
+        Destroy(gameObject);
     }
 
 }

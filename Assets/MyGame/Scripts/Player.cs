@@ -10,14 +10,14 @@ public class Player : MonoBehaviour
     public Text scoreText;
     public AudioSource playSound;
 
+
     // Start is called before the first frame update
     void Start()
     {
         eggCounter = 0;
-    
-    void OnTriggerEnter(Collider other)
+    }
+     private void OnTriggerEnter(Collider other)
     {
-        playSound.Play();
 
         if(other.tag == "EasterEgg")
         {
@@ -28,14 +28,12 @@ public class Player : MonoBehaviour
         if(other.tag == "EasterEgg1")
         {
             eggCounter++;
-            Destroy(other.tag == "EasterEgg1");
             scoreText.text = "Score: " + eggCounter;
             Debug.Log ("Score:" +eggCounter);
         }
         if(other.tag == "EasterEgg2")
         {
             eggCounter++;
-            Destroy(other.tag == "EasterEgg2");
             scoreText.text = "Score: " + eggCounter;
             Debug.Log ("Score:" +eggCounter);
         }
@@ -43,7 +41,6 @@ public class Player : MonoBehaviour
         {
             eggCompleted = true;
         }
-         
     }
-    }
+
 }
