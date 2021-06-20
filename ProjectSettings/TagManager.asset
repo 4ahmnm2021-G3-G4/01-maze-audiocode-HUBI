@@ -6,6 +6,11 @@ TagManager:
   tags:
   - EasterEgg
   - SecretDoor
+  - EasterEgg2
+  - EasterEgg1
+  - projectile
+  - FxTemporaire
+  - Key
   layers:
   - Default
   - TransparentFX
