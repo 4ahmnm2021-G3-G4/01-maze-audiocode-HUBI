@@ -38,5 +38,19 @@ Screenshots (concept and experience), Video
 ### Limitations: 
 
 ### Lessons Learned: 
+### Konzept:
+Easter-Maze
+- Thema Frühling -
+Das „Easter Maze“ scheint relativ harmlos zu sein, doch wenn man es betritt werden der Ein und Ausgang mit einem Schlüssel verschlossen. Um das Oster-Labyrinth zu durchqueren muss man drei von drei Ostereiern finden, gelingt einem dies, wird eine Geheimtür geöffnet. Hinter der Tür befindet sich ein Schlüssel, mit dem man den Ausgang öffnen kann. Durch das Öffnen des Ausgangs wird noch ein geheimer Raum freigeschaltet.
+
+Sounds: 
+-	Vögel zwitschern (Mono-Loop)
+-	öffnen von Türen (Mono-OneShot)
+-	möglicherweise Hintergrundmusik (Stereo)
+Collectibles:
+-	Ostereier
+-	Schlüssel
+![image](https://user-images.githubusercontent.com/56028778/120149189-a2ee5080-c1e9-11eb-94d8-7e91ab8a627f.png)
+
 
 Copyright by smeerws :)
