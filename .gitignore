@@ -35,6 +35,9 @@ Assets/StreamingAssets.meta
 # Visual Studio cache directory
 .vs/
 
+# vs code cache dir
+.vscode
+
 # Gradle cache directory
 .gradle/
 
