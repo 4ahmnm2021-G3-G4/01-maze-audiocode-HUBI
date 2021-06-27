@@ -1,17 +1,14 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.UI;
+﻿using UnityEngine;
 
 public class KeyWallManager : MonoBehaviour
 {
-    public Player play;
+    [SerializeField] GameData data;
     public Animator animDoor;
     public AudioSource doorSound;
     
     void Update()
     {
-        if(play.eggCompleted == true){
+        if(data.ThreeEggsCollected()){
             doorSound.Play();
             animDoor.SetBool("Collected", true);
         }

@@ -4,9 +4,8 @@ using UnityEngine;
 
 public class ExitMaze : MonoBehaviour
 {
-    public Player play;
+    public MyPlayer play;
     public Animator animExit;
-    public Animator secretExit;
     public AudioSource doorOpen;
 
         
@@ -15,7 +14,6 @@ public class ExitMaze : MonoBehaviour
         if(other.tag == "Key")
         {
             animExit.SetBool("Entering", true);
-            secretExit.SetBool("SecretOpen", true);
             doorOpen.Play();
         }
     }
