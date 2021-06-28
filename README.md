@@ -53,4 +53,4 @@ Collectibles:
 ![image](https://user-images.githubusercontent.com/56028778/120149189-a2ee5080-c1e9-11eb-94d8-7e91ab8a627f.png)
 
 
-Copyright by smeerws :)
+Copyright by HUBI
